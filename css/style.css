@@ -1,0 +1,36 @@
+:root {
+  --almost-black: #1e1e1e;
+  --primary-yellow: #f0d109;
+  --almost-white: #ffffdc;
+  --background-light-blue: #f0fafa;
+  --background-light-purple: #f4e7ff;
+  --background-light-pink: #fff3f3;
+}
+
+h1,
+h2 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+}
+
+h3,
+h4 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+.cta {
+  font-family: "Fredoka One", cursive;
+  color: var(--almost-black);
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--primary-yellow);
+  padding: 2px 20px;
+  box-shadow: -2px 2px 2px var(--almost-black);
+}
