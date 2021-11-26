@@ -1,0 +1,78 @@
+h1 {
+  color: var(--almost-white);
+  text-shadow: 0px 3px 6px #000;
+  margin: 10px 10px 50px 10px;
+  padding-top: 10px;
+}
+
+.featured-exhibition {
+  background-image: url(../images/desktop/exhibitions/featured.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+
+.featured-exhibition p,
+.featured-exhibition i,
+.featured-exhibition date {
+  background-color: var(--almost-black);
+  color: var(--almost-white);
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+}
+
+.featured-exhibition p,
+.featured-exhibition date {
+  margin-left: 0px;
+}
+
+.ecology {
+  background-image: url(../images/desktop/exhibitions/ecology.jpg);
+}
+
+.cosmology {
+  background-image: url(../images/desktop/exhibitions/cosmology.jpg);
+}
+
+.bio-and-med {
+  background-image: url(../images/desktop/exhibitions/bio-and-med.jpg);
+}
+
+.fa-microscope {
+  transform: scaleX(-1);
+}
+
+.evolution {
+  background-image: url(../images/desktop/exhibitions/evolution.jpg);
+}
+
+.explore {
+  display: flex;
+  flex-direction: row;
+  max-width: 90%;
+  margin: auto;
+}
+
+.explore-picture {
+  max-width: 45%;
+  min-height: 150px;
+}
+.explore-brief {
+  background-color: var(--background-light-blue);
+  max-width: 55%;
+  position: relative;
+  min-height: 150px;
+}
+
+.explore-brief p {
+  line-height: 1.125rem;
+  padding-top: 5px;
+}
+.image-small {
+  max-width: 100%;
+  min-height: 100%;
+}

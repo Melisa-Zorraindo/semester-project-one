@@ -7,30 +7,10 @@
   --background-light-pink: #fff3f3;
 }
 
-h1 {
-  font: 2.25rem "Catamaran", sans-serif;
-  font-weight: 700;
-}
-h2 {
-  font: 1.875rem "Catamaran", sans-serif;
-  font-weight: 600;
-  text-decoration: underline;
-}
-
-h3,
-h4 {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
-p {
-  font-family: "Nunito", sans-serif;
-}
-
 body {
   margin: 0px;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -38,22 +18,117 @@ header {
   background-color: var(--almost-black);
 }
 
-.image-small {
-  width: 150px;
-  height: 150px;
+h1 {
+  font: 2.25rem "Catamaran", sans-serif;
+  font-weight: 700;
+  margin-left: 10px;
+  line-height: 2.25rem;
 }
+h2 {
+  font: 1.875rem "Catamaran", sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-left: 10px;
+  line-height: 1.875rem;
+}
+
+h3,
+h4 {
+  font: 1.25rem "Catamaran", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 20px 10px 0px;
+}
+
+p,
+date {
+  font: 1rem "Nunito", sans-serif;
+  margin: 0px 10px;
+}
+
+i {
+  margin: 0px 10px;
+}
+
+.logo {
+  width: 100%;
+}
+
 .fa-bars {
   color: var(--primary-yellow);
   font-size: 30px;
   padding: 20px;
 }
+
+.exhibition {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 90%;
+  height: 140px;
+  margin: 20px auto 0px;
+}
+.exhibition h2 {
+  text-decoration: none;
+  text-shadow: 0px 3px 6px #000;
+  color: var(--almost-white);
+  margin: 0px 10px;
+  position: absolute;
+  bottom: 5%;
+}
+
+.exhibition-brief {
+  max-width: 90%;
+  margin: 0px auto;
+  background-color: var(--background-light-pink);
+  position: relative;
+}
+.exhibition-brief,
+.featured-exhibition-brief {
+  display: flex;
+  flex-direction: column;
+}
+
+.exhibition-brief-specs {
+  display: inline-flex;
+}
+
+.exhibition-brief-specs p,
+.exhibition-brief-specs date {
+  margin-left: 0px;
+  padding: 3px;
+}
+
+.exhibition-brief-specs i {
+  padding: 3px;
+}
+
+.news {
+  max-width: 80%;
+  margin: auto;
+}
+
+.news h3 {
+  background-color: var(--background-light-purple);
+  padding: 5px;
+  line-height: 1.375rem;
+  margin: 20px 0px 0px;
+}
+
 .cta {
-  font-family: "Fredoka One", cursive;
+  font: 1.25rem "Fredoka One", cursive;
   color: var(--almost-black);
-  font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
   background-color: var(--primary-yellow);
   padding: 2px 20px;
   box-shadow: -2px 2px 2px var(--almost-black);
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.cta-large {
+  font-size: 1.625rem;
 }
