@@ -7,10 +7,14 @@
   --background-light-pink: #fff3f3;
 }
 
-h1,
-h2 {
-  font-family: "Catamaran", sans-serif;
+h1 {
+  font: 2.25rem "Catamaran", sans-serif;
   font-weight: 700;
+}
+h2 {
+  font: 1.875rem "Catamaran", sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 h3,
@@ -24,6 +28,25 @@ p {
   font-family: "Nunito", sans-serif;
 }
 
+body {
+  margin: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--almost-black);
+}
+
+.image-small {
+  width: 150px;
+  height: 150px;
+}
+.fa-bars {
+  color: var(--primary-yellow);
+  font-size: 30px;
+  padding: 20px;
+}
 .cta {
   font-family: "Fredoka One", cursive;
   color: var(--almost-black);
