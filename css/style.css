@@ -14,10 +14,39 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   background-color: var(--almost-black);
 }
 
+nav {
+  font: 1rem "Nunito", sans-serif;
+  display: none;
+  text-align: left;
+}
+
+nav ul {
+  list-style: none;
+  text-align: left;
+  background-color: var(--almost-black);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--almost-white);
+  line-height: 1.625rem;
+}
+nav a:hover {
+  color: var(--primary-yellow);
+  text-decoration: underline;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked + nav {
+  display: block;
+}
 h1 {
   font: 2.25rem "Catamaran", sans-serif;
   font-weight: 700;
