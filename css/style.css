@@ -86,12 +86,14 @@ i {
 }
 .exhibition-brief,
 .featured-exhibition-brief {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: end;
+  justify-items: end;
 }
 
 .exhibition-brief-specs {
-  display: inline-flex;
+  display: flex;
 }
 
 .exhibition-brief-specs p,
@@ -104,6 +106,9 @@ i {
   padding: 3px;
 }
 
+.exhibition-brief-cta {
+  padding: 10px;
+}
 .news {
   max-width: 80%;
   margin: auto;
@@ -114,6 +119,7 @@ i {
   background-color: var(--background-light-purple);
   display: flex;
   flex-direction: column;
+  align-items: start;
 }
 .news h3 {
   background-color: var(--background-light-purple);
@@ -129,9 +135,10 @@ i {
   text-decoration: none;
   background-color: var(--primary-yellow);
   padding: 2px 20px;
-  position: absolute;
+  box-shadow: 0px 3px 6px #000;
+  /*position: absolute;
   bottom: 5%;
-  right: 5%;
+  right: 5%;*/
 }
 
 .cta-large {
