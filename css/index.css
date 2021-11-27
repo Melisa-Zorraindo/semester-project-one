@@ -64,8 +64,12 @@ h1 {
 .explore-brief {
   background-color: var(--background-light-blue);
   max-width: 55%;
-  position: relative;
+  /*position: relative;*/
   min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .explore-brief p {
