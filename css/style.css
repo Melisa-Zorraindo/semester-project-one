@@ -8,7 +8,7 @@
 }
 
 body {
-  margin: 0px 0px 20px;
+  margin: 0px;
 }
 
 header {
@@ -174,4 +174,44 @@ i {
 
 .cta-large {
   font-size: 1.625rem;
+}
+
+footer {
+  background-color: var(--almost-black);
+  margin-top: 20px;
+}
+
+footer p {
+  color: var(--almost-white);
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 15px 0px 5px;
+}
+
+footer i {
+  color: var(--almost-white);
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.form {
+  background-color: var(--almost-white);
+  min-height: 40px;
+  min-width: 260px;
+  margin-left: 20px;
+  border: none;
+}
+
+.cta-newsletter {
+  border: none;
+  margin: 10px 0px 0px 20px;
+}
+.copyright {
+  text-transform: initial;
+  font-weight: initial;
+  grid-column: -1/1;
+  text-align: center;
 }

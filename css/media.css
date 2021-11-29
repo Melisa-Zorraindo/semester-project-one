@@ -7,4 +7,19 @@
   .wrapper h2 {
     grid-column: -1/1;
   }
+
+  footer {
+    margin-top: 25px;
+    display: grid;
+    grid-template-areas:
+      "form socials"
+      "copyright copyright";
+  }
+
+  footer p {
+    padding-top: 35px;
+  }
+  .socials {
+    justify-self: end;
+  }
 }
