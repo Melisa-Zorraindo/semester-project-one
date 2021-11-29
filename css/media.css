@@ -38,7 +38,8 @@
     align-content: center;
   }
 
-  nav ul,
+  nav,
+  ul,
   .display-item-large-screen {
     display: inline-flex;
   }
