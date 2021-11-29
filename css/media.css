@@ -23,3 +23,32 @@
     justify-self: end;
   }
 }
+
+@media only screen and (min-width: 722px) {
+  .logo {
+    float: left;
+    max-width: 250px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  nav ul,
+  .display-item-large-screen {
+    display: inline-flex;
+  }
+
+  nav li {
+    padding-right: 10px;
+  }
+
+  .hidden-item-large-screen,
+  .hamburger-label {
+    display: none;
+  }
+}
