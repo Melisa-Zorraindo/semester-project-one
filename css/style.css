@@ -88,6 +88,10 @@ nav,
   display: block;
 }
 
+/*.plan-your-visit-items {
+  display: none;
+}*/
+
 .exhibition {
   position: relative;
   background-size: cover;
