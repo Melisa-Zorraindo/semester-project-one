@@ -6,7 +6,7 @@ h1 {
 }
 
 .featured-exhibition {
-  background-image: url(../images/desktop/exhibitions/featured.jpg);
+  background-image: url(/images/exhibitions/fantasy-gbc661e0be_1280.jpg);
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,15 +31,15 @@ h1 {
 }
 
 .ecology {
-  background-image: url(../images/desktop/exhibitions/ecology.jpg);
+  background-image: url(/images/exhibitions/green-gdb8c0fe8a_1280.jpg);
 }
 
 .cosmology {
-  background-image: url(../images/desktop/exhibitions/cosmology.jpg);
+  background-image: url(/images/exhibitions/solar-system-439046_1920.jpg);
 }
 
 .bio-and-med {
-  background-image: url(../images/desktop/exhibitions/bio-and-med.jpg);
+  background-image: url(/images/exhibitions/bacteria-g75a919072_1920.jpg);
 }
 
 .fa-microscope {
@@ -47,7 +47,7 @@ h1 {
 }
 
 .evolution {
-  background-image: url(../images/desktop/exhibitions/evolution.jpg);
+  background-image: url(/images/exhibitions/landscape-3969074_1280.jpg);
 }
 
 .explore {
