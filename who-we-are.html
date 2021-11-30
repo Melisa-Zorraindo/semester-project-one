@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="See in what ways you can contribute towards the museum"
+      content="Learn about what we do and get in touch with us"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Community Science Museum | Get involved</title>
+    <title>Community Science Museum | Who we are</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <link href="css/style.css" rel="stylesheet" />
-  <!--  <link href="css/index.css" rel="stylesheet" /> -->
+   <!-- <link href="css/index.css" rel="stylesheet" /> -->
     <link href="css/media.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/9aef28119c.js"
@@ -65,30 +65,42 @@
     </div>
   </header>
     <main>
-        <h1>Get involved</h1>
-        <h2>Support</h2>
-        <p>There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the whole community. 
-        </p>
-        <p>You can also support us by donating items of interest to the museum’s collections. If you have some item or collection that you think others would enjoy, please let us know by <a href="#">contacting our Collections Department</a> and they will be able to assist you.</p>
-        <hr>
-        <h2>Volunteer</h2>
-        <p>A number of people volunteer their time and effort to keep the displays in good order and ready for visitors to come and enjoy. Volunteering has its perks including getting to see behind the scenes of a working museum, access to staff-only lectures, and a monthly lunch where all staff and volunteers come together to discuss ideas for future exhibits and strategies for the museum.
-        </p>
-        <p>You can help volunteer in a number of different spheres. Please <a href="#">contact us</a> if you’d like to find out more about how you can get involved.
-        </p>
-        <hr>
-        <h2>Internships</h2>
-        <p>Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of nature with people? Well you could be just the right person to enjoy an internship at the museum.
-        </p>
-        <p>You’ll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community.
-        </p>
-        <p>Please <a href="#">get in touch with us here</a> to ask for an application form.</p>
+        <h1>Who we are</h1>
+        <h2>Explore together</h2>
+        <p>Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
+        <p>Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.</p>
+        <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
+        <p>We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have a large number of exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).</p>
+        <h2>Get in touch</h2>
+        <form method="post">
+            <label for="name">Name and surname</label>
+            <input type="text" required id="name" />
+            <label for="email">Email</label>
+            <input type="email" required id="email" />
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" />
+            <p>Tell us the reason of your message</p>
+            <label for="subject">I would like to</label>
+            <input list="subject-option" id="subject" name="subject" />
+            <datalist id="subject-option">
+                <option value="join the Young Stars club"></option>
+                <option value="join the holiday club"></option>
+                <option value="plan a group visit"></option>
+                <option value="collaborate as a researcher"></option>
+                <option value="donate to the Collections department"></option>
+                <option value="volunteer"></option>
+                <option value="apply to an Internship"></option>
+            </datalist>
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+            <input type="submit" value="Send" class="cta cta-submit" />
+        </form>
 </main>
 <footer>
   <div class="newsletter">
     <div>
       <p>subscribe to our newsletter</p>
-      <form method="post">
+      <form method="get">
       <input class="form" type="email" placeholder="Email address" />
       <div>
       <input class="cta cta-submit" type="submit" value="send" />
