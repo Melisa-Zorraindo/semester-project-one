@@ -1,0 +1,66 @@
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: var(--primary-yellow);
+  background-color: var(--almost-black);
+  padding: 0px 2px;
+}
+
+hr {
+  margin-top: 20px;
+  width: 90%;
+  color: var(--background-light-purple);
+}
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.image-wrapper {
+  display: flex;
+}
+.image-one {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.image-two {
+  margin-right: 10px;
+}
+.image-three {
+  margin-right: 10px;
+}
+.children-aeronautics {
+  flex: 1.5045;
+}
+
+.children-chemistry {
+  flex: 1.5035;
+}
+
+.children-art {
+  flex: 1.3195;
+}
+
+.teachers-male-teacher {
+  flex: 1.4988;
+}
+
+.teachers-science-items {
+  flex: 1.7777;
+}
+
+.teachers-female-teacher,
+.researcher-lab {
+  flex: 1.5005;
+}
+
+.researchers-engineer {
+  flex: 1.5041;
+}
+
+.researchers-microscope {
+  flex: 1.5571;
+}

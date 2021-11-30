@@ -21,6 +21,7 @@ h1 {
   font-weight: 700;
   margin-left: 10px;
   line-height: 2.25rem;
+  color: var(--almost-black);
 }
 h2 {
   font: 1.875rem "Catamaran", sans-serif;
@@ -28,6 +29,7 @@ h2 {
   text-decoration: underline;
   margin-left: 10px;
   line-height: 1.875rem;
+  color: var(--almost-black);
 }
 
 h3,
@@ -36,12 +38,14 @@ h4 {
   font-weight: 500;
   text-transform: uppercase;
   margin: 20px 10px 0px;
+  color: var(--almost-black);
 }
 
 p,
 date {
   font: 1rem "Nunito", sans-serif;
   margin: 0px 10px;
+  color: var(--almost-black);
 }
 
 i {
