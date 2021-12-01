@@ -1,24 +1,25 @@
-p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-a {
-  color: var(--primary-yellow);
-  background-color: var(--almost-black);
-  padding: 0px 2px;
-}
-
-hr {
-  margin-top: 20px;
-  width: 90%;
-  color: var(--background-light-purple);
-}
 img {
   width: 100%;
   height: auto;
   vertical-align: middle;
 }
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 90%;
+  color: var(--background-light-purple);
+}
+
+.link-in-text {
+  color: var(--primary-yellow);
+  background-color: var(--almost-black);
+  padding: 0px 2px;
+}
+
 .image-wrapper {
   display: flex;
 }
@@ -48,12 +49,14 @@ img {
   flex: 1.4988;
 }
 
-.teachers-science-items {
+.teachers-science-items,
+.get-involved-bulb {
   flex: 1.7777;
 }
 
 .teachers-female-teacher,
-.researcher-lab {
+.researcher-lab,
+.internship-computer-code {
   flex: 1.5005;
 }
 
@@ -63,4 +66,38 @@ img {
 
 .researchers-microscope {
   flex: 1.5571;
+}
+
+.get-involved-museum {
+  flex: 1;
+}
+
+.get-involved-child {
+  flex: 1.518;
+}
+
+.volunteer-exhibition-hall {
+  flex: 1.953;
+}
+
+.volunteer-exhibit {
+  flex: 1.5099;
+}
+
+.volunteer-library,
+.internship-skeleton {
+  flex: 1.5;
+}
+
+.internship-reptile,
+.who-we-are-mammoth {
+  flex: 1.5023;
+}
+
+.who-we-are-heart {
+  flex: 1.5106;
+}
+
+.who-we-are-ants {
+  flex: 1.3333;
 }
