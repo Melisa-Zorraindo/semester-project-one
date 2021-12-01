@@ -14,6 +14,9 @@ hr {
   color: var(--background-light-purple);
 }
 
+form {
+}
+
 .link-in-text {
   color: var(--primary-yellow);
   background-color: var(--almost-black);
@@ -100,4 +103,34 @@ hr {
 
 .who-we-are-ants {
   flex: 1.3333;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 10px;
+}
+
+.contact-heading,
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  font: 1rem "Nunito", sans-serif;
+  color: var(--almost-black);
+}
+
+.contact-form {
+  height: 40px;
+  border: 1px solid var(--primary-yellow);
+  font-size: 0.75rem;
+  color: grey;
+}
+input:invalid {
+  border-color: red;
+}
+
+textarea {
+  height: 120px;
+  border: 1px solid var(--primary-yellow);
 }

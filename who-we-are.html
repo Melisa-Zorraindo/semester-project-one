@@ -87,15 +87,18 @@
       <section>
         <h2>Get in touch</h2>
         <form method="post">
-            <label for="name">Name and surname</label>
-            <input type="text" required id="name" />
-            <label for="email">Email</label>
-            <input type="email" required id="email" />
-            <label for="phone">Phone number</label>
-            <input type="tel" id="phone" />
-            <p>Tell us the reason of your message</p>
-            <label for="subject">I would like to</label>
-            <input list="subject-option" id="subject" name="subject" />
+          <div class="form-field">
+            <label class="contact-heading" for="name">Name and surname</label>
+            <input class="contact-form" type="text" required id="name" placeholder="Melisa Zorraindo" />
+            </div>
+            <div class="form-field">
+            <label class="contact-heading" for="email">Email</label>
+            <input class="contact-form" type="email" required id="email" placeholder="example@email.com" />
+            </div>
+            <div class="form-field">
+            <label class="contact-heading" for="subject" required>I would like to <small>(select an option or write your own subject)</small></label>
+            <input class="contact-form" list="subject-option" id="subject" name="subject" />
+            </div>
             <datalist id="subject-option">
                 <option value="join the Young Stars club"></option>
                 <option value="join the holiday club"></option>
@@ -105,8 +108,10 @@
                 <option value="volunteer"></option>
                 <option value="apply to an Internship"></option>
             </datalist>
-            <label for="message">Message</label>
+            <div class="form-field">
+            <label class="contact-heading" for="message">Message</label>
             <textarea id="message"></textarea>
+            </div>
             <input type="submit" value="Send" class="cta cta-submit" />
         </form>
       </section>
