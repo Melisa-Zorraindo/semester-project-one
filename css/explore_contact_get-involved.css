@@ -9,11 +9,6 @@ p {
   margin-bottom: 10px;
 }
 
-hr {
-  width: 90%;
-  color: var(--background-light-purple);
-}
-
 .link-in-text {
   color: var(--primary-yellow);
   background-color: var(--almost-black);
@@ -106,7 +101,7 @@ hr {
   display: flex;
   flex-direction: column;
   width: 80%;
-  margin: 10px;
+  margin-left: 10px;
 }
 .form-field {
   display: flex;
@@ -119,6 +114,7 @@ hr {
   flex-direction: column;
   font: 1rem "Nunito", sans-serif;
   color: var(--almost-black);
+  background-color: white;
 }
 
 .contact-field {
@@ -126,7 +122,7 @@ hr {
   border: 1px solid var(--primary-yellow);
   font-size: 0.75rem;
   color: grey;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 input:invalid {
   border-color: red;
