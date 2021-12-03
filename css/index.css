@@ -76,3 +76,8 @@ h1 {
   max-width: 100%;
   min-height: 100%;
 }
+
+.news-info {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
