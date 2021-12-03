@@ -14,9 +14,6 @@ hr {
   color: var(--background-light-purple);
 }
 
-form {
-}
-
 .link-in-text {
   color: var(--primary-yellow);
   background-color: var(--almost-black);

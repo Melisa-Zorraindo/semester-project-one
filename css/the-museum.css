@@ -1,0 +1,26 @@
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  background-color: var(--almost-white);
+  margin: 20px 0px;
+}
+
+address {
+  font: 1rem "Nunito", sans-serif;
+  color: var(--almost-black);
+  font-style: normal;
+  margin-left: 10px;
+}
+
+.paragraph-break {
+  margin-bottom: 10px;
+}
+
+.link-in-text {
+  color: var(--primary-yellow);
+  background-color: var(--almost-black);
+  padding: 0px 2px;
+}
