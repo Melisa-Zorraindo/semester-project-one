@@ -126,6 +126,7 @@ hr {
   border: 1px solid var(--primary-yellow);
   font-size: 0.75rem;
   color: grey;
+  margin-bottom: 10px;
 }
 input:invalid {
   border-color: red;

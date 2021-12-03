@@ -80,6 +80,10 @@ nav,
   display: none;
 }
 
+.fa-microscope,
+.fa-comment-dots {
+  transform: scaleX(-1);
+}
 .hamburger-label {
   color: var(--primary-yellow);
   font-size: 1.5625rem;
