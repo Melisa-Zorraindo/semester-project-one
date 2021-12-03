@@ -204,10 +204,6 @@ footer i {
   margin-left: 20px;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-}
 .form {
   background-color: var(--almost-white);
   height: 40px;
@@ -220,9 +216,7 @@ form {
   border: none;
   margin: 10px 0px 0px 20px;
 }
-.cta-form {
-  align-self: flex-end;
-}
+
 .copyright {
   text-transform: initial;
   font-weight: initial;
