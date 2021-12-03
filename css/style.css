@@ -28,6 +28,7 @@ h2 {
   font-weight: 600;
   text-decoration: underline;
   margin-left: 10px;
+  margin-bottom: 15px;
   line-height: 1.875rem;
   color: var(--almost-black);
 }
