@@ -17,7 +17,7 @@ h1 {
 
 .featured-exhibition p,
 .featured-exhibition i,
-.featured-exhibition date {
+.featured-exhibition time {
   background-color: var(--almost-black);
   color: var(--almost-white);
   padding: 5px;

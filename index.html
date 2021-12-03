@@ -38,27 +38,27 @@
       <input type="checkbox" id="hamburger-menu">
       <nav>
           <ul>
-            <li><span></i> <a class="hidden-item-large-screen" href="exhibitions.html"><i class="fas fa-images"></i>Exhibitions</a></span>
+            <li><span><a class="hidden-item-large-screen" href="exhibitions.html"><i aria-hidden="true" class="fas fa-images"></i>Exhibitions</a></span>
             </li>
             <li>
               <span>
-              <a class="hidden-item-large-screen" href="explore.html"><i class="fas fa-binoculars"></i>Explore</a></span>
+              <a class="hidden-item-large-screen" href="explore.html"><i aria-hidden="true" class="fas fa-binoculars"></i>Explore</a></span>
             </li>
             <li>
-              <span><a class="hidden-item-large-screen" href="the-museum.html"><i class="fas fa-landmark"></i>The museum</a></span>
+              <span><a class="hidden-item-large-screen" href="the-museum.html"><i aria-hidden="true" class="fas fa-landmark"></i>The museum</a></span>
             </li> 
             <li>
-              <span><label class="plan-your-visit-label hidden-item-small-screen display-item-large-screen" for="plan-your-visit-menu"><input type="checkbox" id="plan-your-visit-menu"><a href="#"><i class="fas fa-tasks"></i>Plan your visit</a></span></label>
+              <span><label class="plan-your-visit-label hidden-item-small-screen display-item-large-screen" for="plan-your-visit-menu"><input type="checkbox" id="plan-your-visit-menu"><a href="#"><i aria-hidden="true" class="fas fa-tasks"></i>Plan your visit</a></span></label>
               <div class="plan-your-visit-items">
-                <span></i> <a class="hidden-item-small-screen display-item-large-screen" href="exhibitions.html"><i class="fas fa-images"></i>Exhibitions</a></span>
-                  <span><a class="hidden-item-small-screen display-item-large-screen" href="explore.html"><i class="fas fa-binoculars"></i>Explore</a></span>
-                    <span><a class="hidden-item-small-screen display-item-large-screen" href="the-museum.html"><i class="fas fa-landmark"></i>The museum</a></span>
+                <span></i> <a class="hidden-item-small-screen display-item-large-screen" href="exhibitions.html"><i aria-hidden="true" class="fas fa-images"></i>Exhibitions</a></span>
+                  <span><a class="hidden-item-small-screen display-item-large-screen" href="explore.html"><i aria-hidden="true" class="fas fa-binoculars"></i>Explore</a></span>
+                    <span><a class="hidden-item-small-screen display-item-large-screen" href="the-museum.html"><i aria-hidden="true" class="fas fa-landmark"></i>The museum</a></span>
               </div>
             </li>
-            <li><span><a href="get-involved.html"><i class="fas fa-hands-helping"></i>Get involved</a></span>
+            <li><span><a href="get-involved.html"><i aria-hidden="true" class="fas fa-hands-helping"></i>Get involved</a></span>
             </li>
             <li><span>
-              <a href="contact.html"><i class="fas fa-comment-dots"></i>Contact</a></span>
+              <a href="contact.html"><i aria-hidden="true" class="fas fa-comment-dots"></i>Contact</a></span>
             </li>
           </ul>
       </nav>
@@ -79,7 +79,7 @@
             </div>
             <div class="exhibition-brief-specs">
               <i class="fas fa-calendar-alt"></i>
-              <date>15 Jan - 15 Apr</date>
+              <time datetime="01-15">15 Jan</time><p>-</p><time datetime="04-15">15 Apr</time>
             </div>
           </div>
           <div>
@@ -106,7 +106,7 @@
               </div>
               <div class="exhibition-brief-specs">
                 <i class="fas fa-calendar-alt"></i>
-                <date>15 Jan - 15 Dec</date>
+                <time datetime="01-15">15 Jan</time><p>-</p><time datetime="12-15">15 Dec</time>
               </div>
             </div>
             <div>
@@ -132,7 +132,7 @@
               </div>
               <div class="exhibition-brief-specs">
                 <i class="fas fa-calendar-alt"></i>
-                <date>15 Jan - 15 Dec</date>
+                <time datetime="01-15">15 Jan</time><p>-</p><time datetime="12-15">15 Dec</time>
               </div>
             </div>
             <div>
@@ -158,7 +158,7 @@
               </div>
               <div class="exhibition-brief-specs">
                 <i class="fas fa-calendar-alt"></i>
-                <date>15 Jan - 15 Dec</date>
+                <time datetime="01-15">15 Jan</time><p>-</p><time datetime="12-15">15 Dec</time>
               </div>
             </div>
             <div>
@@ -184,7 +184,7 @@
               </div>
               <div class="exhibition-brief-specs">
                 <i class="fas fa-calendar-alt"></i>
-                <date>15 Jan - 15 Dec</date>
+                <time datetime="01-15">15 Jan</time><p>-</p><time datetime="12-15">15 Dec</time>
               </div>
             </div>
             <div>
@@ -212,7 +212,7 @@
                 Are you a young person looking to learn more about science?
                 Let's learn together
               </p>
-              <a class="cta" href="explore.html">join</a>
+              <a class="cta" href="explore.html">view</a>
             </div>
           </div>
         </div>
@@ -231,7 +231,7 @@
                 We want to work with schools to create places of learning and
                 exploring.
               </p>
-              <a class="cta" href="explore.html">join</a>
+              <a class="cta" href="explore.html">view</a>
             </div>
           </div>
         </div>
@@ -250,7 +250,7 @@
                 Are you looking to get involved with our team of researchers and
                 academics? Join us.
               </p>
-              <a class="cta" href="explore.html">join</a>
+              <a class="cta" href="explore.html">view</a>
             </div>
           </div>
         </div>
@@ -339,11 +339,13 @@
       </div>
       <div class="socials">
         <p>follow us on social media</p>
-        <div>
-          <i class="fab fa-tiktok"></i>
-          <i class="fab fa-youtube"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-facebook-square"></i>
+        <div >
+          <ul class="socials-icons">
+            <li><a aria-label="Tik tok" href="#"><i aria-hidden="true" class="fab fa-tiktok" ></i></a></li>
+            <li><a aria-label="Youtube" href="#"><i aria-hidden="true" class="fab fa-youtube"></i></a></li>
+            <li><a aria-label="Instagram" href="#"><i aria-hidden="true" class="fab fa-instagram"></i></a></li>
+            <li><a aria-label="Facebook" href="#"><i aria-hidden="true" class="fab fa-facebook-square"></i></a></li>
+        </ul>
         </div>
       </div>
       <p class="copyright">&#169 Copyright 2021</p>

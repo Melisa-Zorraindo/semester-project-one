@@ -42,11 +42,13 @@ h4 {
   color: var(--almost-black);
 }
 
-p,
-date {
+p {
   font: 1rem "Nunito", sans-serif;
   margin: 0px 10px;
   color: var(--almost-black);
+}
+time {
+  font: 1rem "Nunito", sans-serif;
 }
 
 i {
@@ -55,7 +57,7 @@ i {
 
 .logo {
   padding: 10px;
-  max-width: 50%;
+  max-width: 150px;
   float: right;
 }
 
@@ -222,6 +224,22 @@ footer i {
   margin: 10px 0px 0px 20px;
 }
 
+.socials li {
+  list-style: none;
+}
+
+.socials-icons {
+  display: flex;
+}
+.socials-icons:first-child {
+  padding-left: 0px;
+}
+
+.socials-icons i:hover {
+  background-color: var(--primary-yellow);
+  color: var(--almost-black);
+  padding: 5px;
+}
 .copyright {
   text-transform: initial;
   font-weight: initial;
