@@ -102,22 +102,26 @@ hr {
   flex: 1.3333;
 }
 
-.form-field {
+.contact-form {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin: 10px;
 }
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
 
 .contact-heading,
-.contact-form {
+.contact-field {
   display: flex;
   flex-direction: column;
   font: 1rem "Nunito", sans-serif;
   color: var(--almost-black);
 }
 
-.contact-form {
+.contact-field {
   height: 40px;
   border: 1px solid var(--primary-yellow);
   font-size: 0.75rem;
@@ -130,4 +134,8 @@ input:invalid {
 textarea {
   height: 120px;
   border: 1px solid var(--primary-yellow);
+}
+
+.cta-form {
+  align-self: flex-end;
 }
