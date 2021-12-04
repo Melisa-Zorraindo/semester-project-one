@@ -25,44 +25,24 @@
   </head>
   <body>
     <header>
-      <div>
-      <a href="index.html"
-          ><img
-            alt="Community science museum logo"
-            class="logo"
-            src="images/logo-mobile.png"
-        /></a>
-      </div>
-      <div>
-      <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-      <input type="checkbox" id="hamburger-menu">
-      <nav>
-          <ul>
-            <li><span><a class="hidden-item-large-screen" href="exhibitions.html"><i aria-hidden="true" class="fas fa-images"></i>Exhibitions</a></span>
-            </li>
-            <li>
-              <span>
-              <a class="hidden-item-large-screen" href="explore.html"><i aria-hidden="true" class="fas fa-binoculars"></i>Explore</a></span>
-            </li>
-            <li>
-              <span><a class="hidden-item-large-screen" href="the-museum.html"><i aria-hidden="true" class="fas fa-landmark"></i>The museum</a></span>
-            </li> 
-            <li>
-              <span><label class="plan-your-visit-label hidden-item-small-screen display-item-large-screen" for="plan-your-visit-menu"><input type="checkbox" id="plan-your-visit-menu"><a href="#"><i aria-hidden="true" class="fas fa-tasks"></i>Plan your visit</a></span></label>
-              <div class="plan-your-visit-items">
-                <span></i> <a class="hidden-item-small-screen display-item-large-screen" href="exhibitions.html"><i aria-hidden="true" class="fas fa-images"></i>Exhibitions</a></span>
-                  <span><a class="hidden-item-small-screen display-item-large-screen" href="explore.html"><i aria-hidden="true" class="fas fa-binoculars"></i>Explore</a></span>
-                    <span><a class="hidden-item-small-screen display-item-large-screen" href="the-museum.html"><i aria-hidden="true" class="fas fa-landmark"></i>The museum</a></span>
-              </div>
-            </li>
-            <li><span><a href="get-involved.html"><i aria-hidden="true" class="fas fa-hands-helping"></i>Get involved</a></span>
-            </li>
-            <li><span>
-              <a href="contact.html"><i aria-hidden="true" class="fas fa-comment-dots"></i>Contact</a></span>
-            </li>
-          </ul>
-      </nav>
+      <div class="home">
+        <a href="index.html"><img alt="Community science museum logo"
+          class="logo" src="images/logo-dos-desktop.png"/></a>
+
+      <a aria-label="Open main menu" class="hamburger" href="#navbar">
+      <span class="sr-only">Open main menu</span>
+    <i aria-hidden="true" class="fas fa-bars"></i></a>
     </div>
+    <nav id="navbar">
+      <ul>
+        <li><a  href="#"><i aria-hidden="true" class="fas fa-tasks"></i>Plan your visit</a></li>
+        <li><a href="get-involved.html"><i aria-hidden="true" class="fas fa-hands-helping"></i>Get involved</a></li>
+        <li><a href="contact.html"><i aria-hidden="true" class="fas fa-comment-dots"></i>Contact</a></li>
+      </ul>
+      <a aria-label="Close main menu" class="close" href="#">
+        <span class="sr-only">Close main menu</span>
+      <i aria-hidden="true" class="fas fa-times"></i></a>
+    </nav>
   </header>
     <main>
       <div class="featured-exhibition">

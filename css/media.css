@@ -25,7 +25,7 @@
 }
 
 @media only screen and (min-width: 722px) {
-  .logo {
+  /*.logo {
     float: left;
     max-width: 250px;
   }
@@ -71,5 +71,64 @@
   .plan-your-visit-menu:checked + .plan-your-visit-items {
     display: grid;
     text-align: left;
+  }*/
+}
+
+@media only screen and (min-width: 1000px) {
+  header {
+    display: flex;
+    align-items: center;
   }
+  nav {
+    position: static;
+    transform: translateY(0);
+  }
+  nav ul {
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    margin-right: 20px;
+  }
+
+  nav a {
+    margin-right: 15px;
+    font-size: 1.25rem;
+  }
+  .hamburger,
+  .close {
+    display: none;
+  }
+
+  /*.home {
+    display: flex;
+    justify-content: space-between;
+  }*/
+  /*
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 20px;
+  }
+
+  nav a {
+    padding: 0 1rem;
+    font-size: 1.25rem;
+  }
+
+  .logo {
+    width: 100%;
+  }
+  .home {
+    flex: 1;
+  }
+  .navigation {
+    flex: 1.5;
+  }
+  .hidden-large-screens {
+    display: none;
+  }
+
+  .display-large-screens {
+    display: block;
+  }*/
 }
