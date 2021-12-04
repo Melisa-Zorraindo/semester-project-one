@@ -68,11 +68,6 @@ header {
   color: var(--almost-white);
 }
 
-.hamburger:hover,
-.close:hover {
-  color: var(--primary-yellow);
-}
-
 nav {
   background-color: var(--almost-black);
   display: flex;
@@ -87,7 +82,7 @@ nav {
 
   /*-- animation --*/
   transform: translateY(-100%);
-  transition: transform 1 ease;
+  transition: transform 0.5s ease;
 }
 
 nav:target {
@@ -95,7 +90,7 @@ nav:target {
 }
 nav ul {
   list-style-type: none;
-  margin: 0;
+  /*margin: 0;*/
   padding: 0;
   display: flex;
   justify-content: flex-start;
@@ -115,19 +110,29 @@ nav a {
   display: block;
 }
 
-nav li:hover {
+/*nav li:hover {
+  background-color: var(--primary-yellow);
+  color: var(--almost-black);
+}*/
+
+nav a:hover {
   background-color: var(--primary-yellow);
   color: var(--almost-black);
 }
 
-nav a:hover {
-  color: var(--almost-black);
+.hamburger:hover,
+.close:hover {
+  color: var(--primary-yellow);
+  background-color: var(--almost-black);
 }
-
 .home {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.hidden-small-screens {
+  display: none;
 }
 /*.navigation {
   display: flex;

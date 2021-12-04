@@ -82,6 +82,7 @@
   nav {
     position: static;
     transform: translateY(0);
+    overflow: visible;
   }
   nav ul {
     justify-content: flex-end;
@@ -89,6 +90,9 @@
     margin-right: 20px;
   }
 
+  nav ul ul a{
+    width: 100%;
+  }
   nav a {
     margin-right: 15px;
     font-size: 1.25rem;
@@ -96,6 +100,26 @@
   .hamburger,
   .close {
     display: none;
+  }
+
+  .dropdown{
+    position: relative;
+  }
+
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    background-color: var(--almost-black);
+  }
+
+  .dropdown:hover .dropdown-menu{
+    display: block;
+  }
+
+  .hidden-small-screens {
+    display: inline-block;
+  }
   }
 
   /*.home {
