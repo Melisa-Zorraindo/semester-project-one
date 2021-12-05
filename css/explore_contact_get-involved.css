@@ -10,8 +10,8 @@ p {
 }
 
 .link-in-text {
-  color: var(--primary-yellow);
-  background-color: var(--almost-black);
+  color: var(--almost-black);
+  font-weight: 600;
   padding: 0px 2px;
 }
 
@@ -101,7 +101,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 80%;
-  margin-left: 10px;
+  margin: auto;
 }
 .form-field {
   display: flex;
