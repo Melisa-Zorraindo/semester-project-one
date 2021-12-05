@@ -92,10 +92,12 @@
 
   nav ul ul a {
     width: 100%;
+    padding-right: 0;
   }
   nav a {
     margin-right: 15px;
     font-size: 1.25rem;
+    padding-right: 10px;
   }
   .hamburger,
   .close {
