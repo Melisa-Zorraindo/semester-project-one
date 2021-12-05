@@ -322,14 +322,16 @@ footer p {
   color: var(--almost-white);
   text-transform: uppercase;
   font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
   margin-left: 20px;
   margin-right: 20px;
-  padding: 15px 0px 5px;
+  /*padding: 15px 0px 5px;*/
 }
 
 footer i {
   color: var(--almost-white);
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-left: 20px;
 }
 
@@ -360,6 +362,7 @@ footer i {
   color: grey;
   margin-bottom: 5px;
   background-color: var(--almost-white);
+  border: none;
 }
 
 .cta-newsletter {
@@ -384,7 +387,8 @@ footer i {
 
 .cta-submit {
   border: none;
-  margin: 10px 0 0 20px;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
 .socials li {
@@ -393,20 +397,21 @@ footer i {
 
 .socials-icons {
   display: flex;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 .socials-icons:first-child {
   padding-left: 0px;
 }
 
 .socials-icons i:hover {
-  background-color: var(--primary-yellow);
-  color: var(--almost-black);
-  padding: 5px;
+  color: var(--primary-yellow);
 }
 .copyright {
   text-transform: initial;
   font-weight: initial;
   grid-column: -1/1;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  padding-bottom: 5px;
 }
