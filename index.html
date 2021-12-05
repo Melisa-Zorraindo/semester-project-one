@@ -11,10 +11,9 @@
     <title>Community Science Museum | Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500;600;700&family=Fredoka+One&family=Nunito&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500;600;700&family=Fredoka+One&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
@@ -68,7 +67,7 @@
             </div>
             <div class="exhibition-brief-specs">
               <i class="fas fa-calendar-alt"></i>
-              <time datetime="01-15">15 Jan</time><p>-</p><time datetime="04-15">15 Apr</time>
+              <time datetime="01-15">15 Jan </time><p>-</p><time datetime="04-15">15 Apr</time>
             </div>
           </div>
           <div>
@@ -319,17 +318,37 @@
       </aside>
     </main>
     <footer>
-      <div class="newsletter">
+      <form method="post" class="newsletter">
+            <div class="newsletter-field">
+            <label class="newsletter-heading" for="email">subscribe to our newsletter</label>
+            <input class="newsletter-contact-field" type="email" required id="email" placeholder="example@email.com" />
+            </div>
+            <div class="cta-newsletter">
+            <input type="submit" value="Send" class="cta cta-submit" />
+          </div>
+      </form>
+      <div class="socials">
+        <p>follow us on social media</p>
+        <div >
+          <ul class="socials-icons">
+            <li><a aria-label="Tik tok" href="#"><i aria-hidden="true" class="fab fa-tiktok" ></i></a></li>
+            <li><a aria-label="Youtube" href="#"><i aria-hidden="true" class="fab fa-youtube"></i></a></li>
+            <li><a aria-label="Instagram" href="#"><i aria-hidden="true" class="fab fa-instagram"></i></a></li>
+            <li><a aria-label="Facebook" href="#"><i aria-hidden="true" class="fab fa-facebook-square"></i></a></li>
+        </ul>
+        </div>
+      </div> 
+  <!--    <div>
         <div>
           <p>subscribe to our newsletter</p>
-          <form method="post">
+          <form class="newsletter" method="post">
             <div>
-          <input class="form" type="email" placeholder="Email address" />
-        </div>
-          <div>
-          <input class="cta cta-submit" type="submit" value="send" />
-        </div>
-        </form>
+               <input class="form" type="email" placeholder="Email address" />
+            </div>
+            <div class="newsletter-cta">
+              <input class="cta cta-submit" type="submit" value="send" />
+            </div>
+          </form>
         </div>
       </div>
       <div class="socials">
@@ -342,7 +361,7 @@
             <li><a aria-label="Facebook" href="#"><i aria-hidden="true" class="fab fa-facebook-square"></i></a></li>
         </ul>
         </div>
-      </div>
+      </div> -->
       <p class="copyright">&#169 Copyright 2021</p>
     </footer>
   </body>
