@@ -143,9 +143,8 @@ textarea {
 
 .popup-box {
   max-width: 300px;
-  border: 1px solid var(--primary-yellow);
   text-align: center;
-  background-color: white;
+  /*background-color: white;*/
   position: absolute;
   bottom: 100%;
   left: 50%;
@@ -156,6 +155,10 @@ textarea {
   animation-fill-mode: forwards;
 }
 
+.message {
+  border: 1px solid var(--primary-yellow);
+  background-color: white;
+}
 .popup-box h2,
 .popup-box p {
   text-align: left;
@@ -167,6 +170,7 @@ textarea {
 .fa-smile-beam {
   font-size: 3rem;
   margin-bottom: 20px;
+  color: var(--primary-yellow);
 }
 
 #pop-up-cta {
