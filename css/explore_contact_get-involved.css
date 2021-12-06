@@ -1,3 +1,6 @@
+body {
+  position: relative;
+}
 img {
   width: 100%;
   height: auto;
@@ -135,4 +138,51 @@ textarea {
 
 .cta-form {
   align-self: flex-end;
+  margin-top: 20px;
+}
+
+.popup-box {
+  max-width: 300px;
+  border: 1px solid var(--primary-yellow);
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation-name: parachute;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+.popup-box h2,
+.popup-box p {
+  text-align: left;
+}
+
+.popup-box h2 {
+  font-size: 1.125rem;
+}
+.fa-smile-beam {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#pop-up-cta {
+  display: none;
+}
+#pop-up-cta:checked + .popup-box {
+  display: block;
+}
+
+@keyframes parachute {
+  0% {
+    position: absolute;
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 25%;
+  }
 }
