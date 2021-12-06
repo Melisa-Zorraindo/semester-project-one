@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169" height="90.01" viewBox="0 0 169 90.01">
+  <defs>
+    <filter id="Trazado_21" x="0" y="19.603" width="45.148" height="50.731" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#ff9a01"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon_ionic-md-rocket" data-name="Icon ionic-md-rocket" transform="translate(170.125 -7.882) rotate(90)">
+    <g transform="matrix(0, -1, 1, 0, 7.88, 170.13)" filter="url(#Trazado_21)">
+      <path id="Trazado_21-2" data-name="Trazado 21" d="M30.582,32.353c-5.5,0-10.1-2.068-13.045-3.315a2.365,2.365,0,0,0-3.315,2.311l1.064,15.508a1.189,1.189,0,0,0,1.916.851l4.409-3.345a1.2,1.2,0,0,1,1.733.3l6.234,9.761a1.194,1.194,0,0,0,2.007,0l6.234-9.761a1.2,1.2,0,0,1,1.733-.3l4.409,3.345a1.189,1.189,0,0,0,1.916-.851l1.064-15.508a2.355,2.355,0,0,0-3.315-2.311C40.647,30.285,36.086,32.353,30.582,32.353Z" transform="translate(73.98 14.39) rotate(90)" fill="#f0d109"/>
+    </g>
+    <path id="Trazado_22" data-name="Trazado 22" d="M97.132,88.166l-15-15.423c0-49.63-29.125-71.618-29.125-71.618S23.6,23.113,23.6,72.743L8.6,88.166a2.62,2.62,0,0,0-.688,2.23l5.75,35.118a2.39,2.39,0,0,0,3.687,1.7L38.32,112.95s6.469,6.282,14.719,6.282,14.406-6.282,14.406-6.282l20.969,14.261a2.4,2.4,0,0,0,3.687-1.7l5.781-35.15A2.8,2.8,0,0,0,97.132,88.166ZM53.007,56.409a10.063,10.063,0,0,1,0-20.1A9.816,9.816,0,0,1,62.6,46.358,9.816,9.816,0,0,1,53.007,56.409Z" transform="translate(0)" fill="#f0d109"/>
+  </g>
+</svg>
