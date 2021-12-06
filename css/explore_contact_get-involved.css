@@ -150,9 +150,7 @@ textarea {
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
-  animation-name: parachute;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
+  animation: bounce 2s 2, parachute 6s forwards;
 }
 
 .message {
@@ -180,9 +178,27 @@ textarea {
   display: block;
 }
 
+@keyframes bounce {
+  0% {
+    transform: rotate(15deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(15deg);
+  }
+}
+
 @keyframes parachute {
   0% {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 100%;
   }
 
