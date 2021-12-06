@@ -150,7 +150,7 @@ textarea {
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
-  animation: bounce 2s 2, parachute 6s forwards;
+  animation: bounce 1.5s 2, parachute 6s forwards;
 }
 
 .message {
@@ -182,15 +182,15 @@ textarea {
   0% {
     transform: rotate(15deg);
   }
-  25% {
+  /*25% {
     transform: rotate(0deg);
-  }
+  }*/
   50% {
-    transform: rotate(15deg);
+    transform: rotate(-15deg);
   }
-  75% {
+  /*75% {
     transform: rotate(0deg);
-  }
+  }*/
   100% {
     transform: rotate(15deg);
   }
