@@ -143,11 +143,10 @@ textarea {
   max-width: 250px;
   text-align: center;
   position: absolute;
-  left: 0%;
-  bottom: 50%;
-  /*transform: translate(-50%, -50%);*/
+  left: -25%;
+  bottom: 25%;
   display: none;
-  animation: /*bounce 1.5s 2,*/ parachute 1s forwards;
+  animation: rocket 0.5s ease-out forwards;
 }
 
 .message {
@@ -175,30 +174,15 @@ textarea {
   display: block;
 }
 
-/*@keyframes bounce {
-  0% {
-    transform: rotate(15deg);
-  }
-  /*25% {
-    transform: rotate(0deg);
-  }*/
-/*50% {
-    transform: rotate(-15deg);
-  }
-  /*75% {
-    transform: rotate(0deg);
-  }*/
-/*100% {
-    transform: rotate(15deg);
-  }
-}*/
 
-@keyframes parachute {
+@keyframes rocket {
   0% {
-    /*position: absolute;*/
     left: -25%;
   }
 
+  50%{
+    left:0%:
+  }
   100% {
     left: 15%;
   }
