@@ -94,6 +94,13 @@ p {
   flex: 1.3333;
 }
 
+.contact-intro {
+  margin-bottom: 20px;
+}
+
+.contact-intro p {
+  margin: 0 auto;
+}
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -111,6 +118,7 @@ p {
   display: flex;
   flex-direction: column;
   font: 1rem "Nunito", sans-serif;
+  font-weight: 600;
   color: var(--almost-black);
   background-color: white;
 }
@@ -121,9 +129,20 @@ p {
   font-size: 0.75rem;
   color: grey;
   margin-bottom: 20px;
+  font-weight: 400;
 }
-input:invalid {
-  border-color: red;
+
+.email {
+  margin-bottom: 0;
+}
+.contact-message {
+  font: 1rem "Nunito", sans-serif;
+  color: var(--almost-black);
+  margin-bottom: 20px;
+}
+
+small i {
+  margin: 0;
 }
 
 textarea {
@@ -138,7 +157,7 @@ textarea {
 
 .popup-box {
   max-width: 250px;
-  text-align: left;
+  text-align: right;
   position: absolute;
   left: -25%;
   bottom: 25%;
@@ -151,12 +170,28 @@ textarea {
   background-color: white;
 }
 
+.close-popup {
+  font-size: 2rem;
+  color: var(--almost-black);
+}
+
+.close-popup i {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.close-popup:hover {
+  color: var(--primary-yellow);
+}
 .popup-box h2 {
   font-size: 1.125rem;
+  text-align: left;
+  margin-right: 5px;
 }
 
 .popup-box p {
+  margin-right: 5px;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 #pop-up-cta {

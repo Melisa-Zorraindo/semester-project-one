@@ -28,7 +28,6 @@
       <div class="home">
         <a href="index.html"><img alt="Community science museum logo"
           class="logo" src="images/logo-desktop.png"/></a>
-
       <a aria-label="Open main menu" class="hamburger" href="#navbar">
       <span class="sr-only">Open main menu</span>
     <i aria-hidden="true" class="fas fa-bars"></i></a>
@@ -55,36 +54,24 @@
   </header>
     <main>
         <h1>Get in touch</h1>
-      <!--  <section>
-        <h2>Explore together</h2>
-        <div class="image-wrapper">
-          <div class="who-we-are-mammoth image-one">
-        <img src="/images/who-we-are/mammoth-1257288_1920.jpg" alt="Mammoth fossil exhibit"/>
-        </div>
-        <div class="who-we-are-heart image-two">
-        <img src="/images/who-we-are/heart-2607178_1920.jpg" alt="Plastic heart with veins and arteries"/>
-        </div>
-        <div  class="who-we-are-ants image-three">
-        <img src="/images/who-we-are/genoa-956405_1920.jpg" alt="Giant ants in exhibition hall"/>
-        </div>
-        </div>
-        <p>Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
-        <p>Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.</p>
-        <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
-        <p>We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have a large number of exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).</p>
-      </section>-->
-   <!--   <section>
-        <h2>Get in touch</h2> -->
         <form method="" class="contact-form">
+          <div class="contact-intro">
+            <p>Please get in touch with us using the form below.</p>
+            <p>We do our best to reply within 24 hours.</p>
+          </div>
           <div class="form-field">
             <label class="contact-heading" for="name">Name and surname</label>
-            <input class="contact-field" type="text" required id="name" placeholder="Melisa Zorraindo" />
+            <input class="contact-field" type="text"  id="name" placeholder="Melisa Zorraindo" />
             </div>
             <div class="form-field">
-            <label class="contact-heading" for="email">Email</label>
-            <input class="contact-field" type="email" required id="email" placeholder="example@email.com" />
+               <label class="contact-heading" for="email">Email</label>
+               <input class="contact-field email" type="email"  id="email" placeholder="example@email.com" />
+               <div class="contact-message">
+                  <small><i class="fas fa-lock"></i></small>
+                  <small>We don't send spam to our users</small>
+               </div>
             </div>
-            <label class="contact-heading" for="subject" required>Please select the subject</label>
+            <label class="contact-heading" for="subject" >Please select the subject</label>
             <select name="subject" id="subject-option" class="contact-field">
               <option value="young-stars-club">join the Young Stars club</option>
               <option value="holiday-club">join the holiday club</option>
@@ -94,19 +81,6 @@
                 <option value="volunteer">volunteer</option>
                 <option value="internship">apply for an internship</option>
             </select>
-      <!--      <div class="form-field">
-            <label class="contact-heading" for="subject" required>I would like to <small>(select an option or write your own subject)</small></label>
-            <input class="contact-field" list="subject-option" id="subject" name="subject" />
-            </div> -->
-           <!-- <select id="subject-option">
-                <option value="join the Young Stars club"></option>
-                <option value="join the holiday club"></option>
-                <option value="plan a group visit"></option>
-                <option value="collaborate as a researcher"></option>
-                <option value="donate to the Collections department"></option>
-                <option value="volunteer"></option>
-                <option value="apply to an Internship"></option>
-            </select> -->
             <div class="form-field">
             <label class="contact-heading" for="message">Message</label>
             <textarea id="message"></textarea>
@@ -117,6 +91,7 @@
                 <div class="popup-box">
                   <img src="/images/rocket.svg">
                   <div class="message">
+                    <label class="close-popup" for="pop-up-cta"><i class="fas fa-times"></i></label>
                   <h2>Thank you for your message</h2>
                   <p>
                     We will get back to you as soon as possible
@@ -126,7 +101,6 @@
               </div>
           </div>
         </form>
-  <!--    </section> -->
 </main>
 <footer>
   <form method="" class="newsletter">
