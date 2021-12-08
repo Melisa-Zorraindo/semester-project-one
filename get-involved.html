@@ -117,7 +117,17 @@
         <input class="newsletter-contact-field" type="email" id="email" placeholder="example@email.com" />
         </div>
         <div class="cta-newsletter">
-        <input type="submit" value="sign up" class="cta cta-submit" />
+          <label for="toggle-popup" class="cta">sign up</label>
+          <input type="checkbox" id="toggle-popup" />
+          <div class="modal-popup">
+            <img src="/images/rocket.svg">
+            <div class="feedback">
+              <label class="close-feedback" for="toggle-popup"><i class="fas fa-times"></i></label>
+            <p>
+              You won't miss out a thing!
+            </p>
+          </div>
+        </div>
       </div>
   </form>
   <div class="socials">
