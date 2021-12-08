@@ -11,31 +11,26 @@ body {
   margin: 0px;
 }
 
-/*header {
-  background-color: var(--almost-black);
-  min-height: 60px;
-}*/
-
 h1 {
-  font: 2.25rem "Catamaran", sans-serif;
+  font: 2rem "Catamaran", sans-serif;
   font-weight: 700;
   margin-left: 10px;
-  line-height: 2.25rem;
+  line-height: 2rem;
   color: var(--almost-black);
 }
 h2 {
-  font: 1.875rem "Catamaran", sans-serif;
+  font: 1.5rem "Catamaran", sans-serif;
   font-weight: 600;
   text-decoration: underline;
   margin-left: 10px;
   margin-bottom: 15px;
-  line-height: 1.875rem;
+  line-height: 1.5rem;
   color: var(--almost-black);
 }
 
 h3,
 h4 {
-  font: 1.25rem "Catamaran", sans-serif;
+  font: 1.125rem "Catamaran", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   margin: 20px 10px 0px;
