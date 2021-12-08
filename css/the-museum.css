@@ -21,7 +21,6 @@ address {
 }
 
 .link-in-text {
-  color: var(--primary-yellow);
-  background-color: var(--almost-black);
-  padding: 0px 2px;
+  color: var(--almost-black);
+  font-weight: 600;
 }

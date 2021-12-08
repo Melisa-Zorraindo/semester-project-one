@@ -1,7 +1,5 @@
 img {
   width: 100%;
-  height: auto;
-  vertical-align: middle;
 }
 
 p {
@@ -12,7 +10,6 @@ p {
 .link-in-text {
   color: var(--almost-black);
   font-weight: 600;
-  padding: 0px 2px;
 }
 
 .image-wrapper {
@@ -141,7 +138,7 @@ textarea {
 
 .popup-box {
   max-width: 250px;
-  text-align: center;
+  text-align: left;
   position: absolute;
   left: -25%;
   bottom: 25%;
@@ -153,18 +150,13 @@ textarea {
   border: 3px solid var(--almost-black);
   background-color: white;
 }
-.popup-box h2,
-.popup-box p {
-  text-align: left;
-}
 
 .popup-box h2 {
   font-size: 1.125rem;
 }
-.fa-smile-beam {
-  font-size: 3rem;
+
+.popup-box p {
   margin-bottom: 20px;
-  color: var(--almost-black);
 }
 
 #pop-up-cta {
@@ -174,14 +166,13 @@ textarea {
   display: block;
 }
 
-
 @keyframes rocket {
   0% {
     left: -25%;
   }
 
-  50%{
-    left:0%:
+  50% {
+    left: 0%;
   }
   100% {
     left: 15%;
