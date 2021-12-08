@@ -82,8 +82,6 @@ nav {
   left: 0;
   width: 100%;
   overflow: hidden; /*may have to remove it later*/
-
-  /*-- animation --*/
   transform: translateY(-100%);
   transition: transform 0.5s ease;
 }
@@ -203,6 +201,9 @@ nav,
   display: block;
 }*/
 
+.fa-hands-helping {
+  transform: rotate(30deg);
+}
 .fa-microscope,
 .fa-comment-dots {
   transform: scaleX(-1);
