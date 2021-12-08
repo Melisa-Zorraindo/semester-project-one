@@ -102,9 +102,9 @@ p {
   margin: 0 auto;
 }
 .contact-form {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
+  /*display: flex;
+  flex-direction: column;*/
+  width: 70%;
   margin: auto;
   position: relative;
 }
@@ -115,12 +115,14 @@ p {
 
 .contact-heading,
 .contact-field {
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
+  display: block;
   font: 1rem "Nunito", sans-serif;
   font-weight: 600;
   color: var(--almost-black);
   background-color: white;
+  width: 100%;
 }
 
 .contact-field {
