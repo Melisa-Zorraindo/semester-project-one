@@ -43,6 +43,21 @@
     width: 60%;
   }
 
+  /* ---------- Explore ---------- */
+
+  .explore-involved-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .image-wrapper {
+    margin-left: 10px;
+  }
+
+  .paragraph-container p {
+    margin-left: 20px;
+  }
+
   /* ---------- Contact ---------- */
 
   .contact-form {
