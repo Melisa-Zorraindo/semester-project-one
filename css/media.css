@@ -1,4 +1,31 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 658px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-left: 20px;
+  }
+
+  /* ---------- Landing page & Exhibitions ---------- */
+
+  .featured-exhibition-brief {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .exhibition,
+  .exhibition-brief,
+  .exhibition-info {
+    max-width: 320px;
+  }
+
+  .exhibition-info h2 {
+    margin-left: 0px;
+  }
+
+  .explore-section-heading h3 {
+    margin-top: 0;
+  }
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -6,6 +33,41 @@
 
   .wrapper h2 {
     grid-column: -1/1;
+  }
+
+  .news {
+    height: auto;
+  }
+
+  .slider {
+    width: 60%;
+  }
+
+  /* ---------- Contact ---------- */
+
+  .contact-form {
+    width: 50%;
+  }
+
+  /* ---------- The museum ---------- */
+
+  iframe {
+    height: 200px;
+  }
+
+  .visit-container {
+    width: 320px;
+    margin: 0 auto;
+    height: fit-content;
+  }
+
+  .visit-container h3 {
+    margin-left: 10px;
+  }
+
+  .visit-wrapper {
+    display: grid;
+    grid-template-columns: min-content min-content;
   }
 
   footer {
@@ -21,6 +83,10 @@
   }*/
   .socials {
     justify-self: end;
+  }
+
+  .socials p {
+    font-weight: 400;
   }
 }
 
