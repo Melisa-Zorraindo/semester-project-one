@@ -30,6 +30,14 @@ h1 {
   margin-left: 0px;
 }
 
+.exhibition {
+  max-width: 85%;
+}
+
+.exhibition-brief {
+  max-width: 85%;
+}
+
 .ecology {
   background-image: url(/images/exhibitions/green-gdb8c0fe8a_1280.jpg);
 }
