@@ -67,7 +67,7 @@
 
   .visit-wrapper {
     display: grid;
-    grid-template-columns: min-content min-content;
+    grid-template-columns: 1fr 1fr;
   }
 
   footer {
