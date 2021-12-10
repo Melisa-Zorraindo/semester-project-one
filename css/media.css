@@ -93,9 +93,6 @@
       "copyright copyright";
   }
 
-  /*footer p {
-    padding-top: 35px;
-  }*/
   .socials {
     justify-self: end;
   }
@@ -175,20 +172,6 @@
     font-size: 2rem;
   }
 
-  /*.featured-exhibition h1 {
-    margin-bottom: 150px;
-    margin-left: 100px;
-  }
-
-  .cta-large {
-    font-size: 2rem;
-  }
-
-  .featured-exhibition-brief {
-    margin-left: 100px;
-    margin-right: 250px;
-  }*/
-
   .exhibition,
   .exhibition-brief,
   .exhibition-info,
@@ -233,6 +216,13 @@
 
   aside h2 {
     margin-top: 20px;
+  }
+
+  /* ---------- Exhibitions ---------- */
+
+  .wrapper-exhibitions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
