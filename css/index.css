@@ -110,6 +110,7 @@ h2 {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
 }
+
 .news h3 {
   background-color: var(--background-light-purple);
   padding: 5px;
