@@ -9,6 +9,12 @@
 
 body {
   margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 h1 {
@@ -92,13 +98,11 @@ nav:target {
 }
 nav ul {
   list-style-type: none;
-  /*margin: 0;*/
   padding: 0;
   display: flex;
   justify-content: flex-start;
   flex-flow: column wrap;
   width: 100%;
-  /*flex: 1;*/
 }
 
 nav li {
@@ -111,11 +115,6 @@ nav a {
   line-height: 2.5rem;
   display: block;
 }
-
-/*nav li:hover {
-  background-color: var(--primary-yellow);
-  color: var(--almost-black);
-}*/
 
 nav a:hover {
   background-color: var(--primary-yellow);
@@ -136,71 +135,6 @@ nav a:hover {
 .hidden-small-screens {
   display: none;
 }
-/*.navigation {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  position: absolute;
-  z-index: 9999;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden; /*may have to remove it later*/
-
-/*-- animation --*/
-/*transform: translateY(-100%);
-  transition: transform 0.2 ease;
-}
-
-/*.navigation:target {
-  transform: translateY(0);
-}*/
-/*.hidden-small-screens {
-  display: none;
-}
-
-.logo {
-  width: 50%;
-}
-/*.logo {
-  padding: 10px;
-  max-width: 150px;
-  float: right;
-}*/
-
-/*nav ul {
-  list-style: none;
-  line-height: 2.1875rem;
-  text-align: center;
-  padding-left: 0px;
-}
-nav a {
-  font: 1rem "Nunito", sans-serif;
-  text-decoration: none;
-  color: var(--almost-white);
-}
-
-nav a:hover {
-  text-decoration: underline;
-  color: var(--primary-yellow);
-}
-nav,
-.hidden-item-small-screen,
-#hamburger-menu {
-  display: none;
-}
-
-.hamburger-label {
-  color: var(--primary-yellow);
-  font-size: 1.5625rem;
-  padding: 10px;
-  /*float: right;*/
-/* display: block;
-}
-
-#hamburger-menu:checked ~ nav {
-  display: block;
-}*/
 
 .fa-hands-helping {
   transform: rotate(30deg);
@@ -209,10 +143,6 @@ nav,
 .fa-comment-dots {
   transform: scaleX(-1);
 }
-
-/*.plan-your-visit-items {
-  display: none;
-}*/
 
 .exhibition {
   position: relative;
