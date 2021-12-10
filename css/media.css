@@ -233,10 +233,25 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  /* ---------- The museum ---------- */
+
+  .visit-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  iframe {
+    height: 300px;
+  }
+
   /* ---------- Contact ---------- */
 
   .contact-form {
     width: 500px;
+  }
+
+  .heading-contact-form {
+    text-align: center;
   }
 }
 

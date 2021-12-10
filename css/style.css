@@ -333,6 +333,8 @@ footer i {
 
 .cta-newsletter {
   align-self: flex-end;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 /*.newsletter {
   display: flex;
