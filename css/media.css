@@ -1,3 +1,38 @@
+@media only screen and (max-width: 335px) {
+  .logo {
+    max-width: 180px;
+  }
+
+  .exhibition-brief,
+  .featured-exhibition-brief {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .explore {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .explore-picture,
+  .explore-brief {
+    max-width: 100%;
+    min-height: auto;
+  }
+
+  .socials-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer i {
+    font-size: 1rem;
+  }
+}
+
 @media only screen and (min-width: 658px) {
   h1,
   h2,
