@@ -105,54 +105,12 @@
   }
 }
 
-@media only screen and (min-width: 722px) {
-  /*.logo {
-    float: left;
-    max-width: 250px;
+@media only screen and (min-width: 800px) and (max-width: 999px) {
+  .exhibition,
+  .exhibition-brief,
+  .exhibition-info {
+    min-width: 350px;
   }
-
-  header {
-    display: flex;
-    flex-direction: row;
-    margin: 0px;
-    justify-content: space-between;
-    align-content: center;
-  }
-
-  nav,
-  ul,
-  .display-item-large-screen {
-    display: inline-flex;
-  }
-
-  nav li {
-    padding-right: 10px;
-  }
-
-  .hidden-item-large-screen,
-  .hamburger-label {
-    display: none;
-  }
-
-  .plan-your-visit-label {
-    color: var(--almost-white);
-    font: 1rem "Nunito", sans-serif;
-  }
-
-  .plan-your-visit-label:hover {
-    color: var(--primary-yellow);
-    text-decoration: underline;
-  }
-  #plan-your-visit-menu {
-    display: none;
-  }
-  .plan-your-visit-items:hover {
-    color: var(--primary-yellow);
-  }
-  .plan-your-visit-menu:checked + .plan-your-visit-items {
-    display: grid;
-    text-align: left;
-  }*/
 }
 
 @media only screen and (min-width: 1000px) {
