@@ -131,7 +131,7 @@ p {
   height: 40px;
   border: 1px solid var(--primary-yellow);
   font-size: 0.75rem;
-  color: grey;
+  color: var(--almost-black);
   margin-bottom: 20px;
   font-weight: 400;
 }

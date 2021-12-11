@@ -254,7 +254,7 @@ footer i {
   flex-direction: column;
   height: 40px;
   font-size: 0.75rem;
-  color: grey;
+  color: var(--almost-black);
   margin-bottom: 5px;
   background-color: var(--almost-white);
   border: none;
