@@ -44,14 +44,6 @@ h4 {
   color: var(--almost-black);
 }
 
-/* --- ASK HOW TO MAKE SCROLL WORK 
-
-article,
-section {
-  overflow: scroll;
-  scroll-behavior: smooth;
-}                                        ---*/
-
 p {
   font: 1rem "Nunito", sans-serif;
   margin: 0 10px;
@@ -219,10 +211,6 @@ footer p {
   color: var(--almost-white);
   text-transform: uppercase;
   margin: 10px 20px 5px;
-  /*margin-top: 10px;
-  margin-bottom: 5px;
-  margin-left: 20px;
-  margin-right: 20px;*/
 }
 
 footer i {

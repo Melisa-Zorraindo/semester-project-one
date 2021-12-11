@@ -51,7 +51,6 @@
 }
 
 @media only screen and (min-width: 694px) {
-  /*change made at 658 before*/
   h1,
   h2,
   h3,
@@ -60,11 +59,6 @@
   }
 
   /* ---------- Landing page & Exhibitions ---------- */
-
-  /*.featured-exhibition-brief {
-    margin-left: 20px;
-    margin-right: 20px;
-  }*/
 
   .wrapper {
     display: grid;
@@ -85,11 +79,6 @@
   article {
     margin-bottom: 0;
   }
-  /*.exhibition,
-  .exhibition-brief,
-  .exhibition-info {
-    max-width: 320px;
-  }*/
 
   .exhibition-info h2 {
     margin-left: 0px;
@@ -183,12 +172,6 @@
 }
 
 @media only screen and (min-width: 800px) and (max-width: 999px) {
-  /*.exhibition,
-  .exhibition-brief,
-  .exhibition-info {
-    min-width: 350px;
-  }*/
-
   .wrapper {
     max-width: 90%;
     row-gap: 20px;
