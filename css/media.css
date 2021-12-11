@@ -112,10 +112,25 @@
   .explore-involved-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .explore-involved-container h1 {
+    grid-column: -1/1;
   }
 
   .image-wrapper {
     margin-left: 10px;
+  }
+
+  .main-paragraph-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  .paragraph-container {
+    /*margin-bottom: 40px;*/
+    max-width: 300px;
   }
 
   .paragraph-container p {
@@ -135,7 +150,7 @@
   }
 
   .visit-container {
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
     height: fit-content;
   }
@@ -147,7 +162,7 @@
   .visit-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 90%;
+    max-width: 600px;
     margin: auto;
   }
 
@@ -177,11 +192,28 @@
 
   .wrapper {
     max-width: 90%;
+    row-gap: 20px;
   }
 
   .explore-grid h2 {
     margin-bottom: 0px;
     margin-top: 50px;
+  }
+
+  .explore-involved-container {
+    max-width: 750px;
+  }
+  .main-paragraph-container {
+    max-width: 750px;
+    margin: auto;
+  }
+  .paragraph-container {
+    /*margin-bottom: 40px;*/
+    max-width: 325px;
+  }
+
+  .visit-wrapper {
+    max-width: 750px;
   }
 }
 
@@ -251,6 +283,15 @@
     font-size: 2rem;
   }
 
+  .wrapper {
+    row-gap: 15px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .explore-grid h2 {
+    margin-bottom: 0;
+  }
   .exhibition,
   .exhibition-brief,
   .exhibition-info,
@@ -287,6 +328,8 @@
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 10px;
+    max-width: 1000px;
+    margin: auto;
   }
   aside {
     grid-column: 2;
@@ -304,6 +347,19 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  /* ---------- Explore & Get involved ---------- */
+
+  .explore-involved-container {
+    max-width: 980px;
+  }
+  .main-paragraph-container {
+    max-width: 980px;
+    margin: auto;
+  }
+  .paragraph-container {
+    /*margin-bottom: 40px;*/
+    max-width: 490px;
+  }
   /* ---------- The museum ---------- */
 
   .visit-wrapper {
@@ -313,6 +369,10 @@
 
   iframe {
     height: 300px;
+  }
+
+  .visit-wrapper {
+    max-width: 980px;
   }
 
   /* ---------- Contact ---------- */
@@ -327,7 +387,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  .exhibition,
+  /*.exhibition,
   .exhibition-brief,
   .exhibition-info {
     max-width: 350px;

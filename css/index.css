@@ -127,6 +127,12 @@ h2 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+.news-one,
+.news-two,
+.news-three {
+  margin: auto;
+}
 .carousel-links {
   display: flex;
   flex-direction: row;
