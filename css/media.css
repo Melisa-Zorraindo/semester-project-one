@@ -38,6 +38,16 @@
     max-width: 70%;
     margin: auto;
   }
+
+  .slider {
+    max-width: 400px;
+  }
+
+  /* ---------- Contact ---------- */
+
+  .heading-contact-form {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 694px) {
@@ -161,10 +171,6 @@
   .exhibition-brief,
   .exhibition-info {
     min-width: 350px;
-  }
-
-  .heading-contact-form {
-    text-align: center;
   }
 }
 
