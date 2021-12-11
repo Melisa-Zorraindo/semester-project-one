@@ -1,5 +1,5 @@
 h2 {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .image-container {
@@ -19,7 +19,7 @@ article {
 
 .exhibition-info {
   width: 90%;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .exhibition-paragraph {

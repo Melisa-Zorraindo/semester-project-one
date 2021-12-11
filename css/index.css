@@ -1,6 +1,6 @@
 h1 {
   color: var(--almost-white);
-  text-shadow: 0px 3px 6px #000;
+  text-shadow: 0 3px 6px #000;
   margin: 0 10px 100px;
   padding-top: 10px;
 }
@@ -33,12 +33,12 @@ h2 {
   color: var(--almost-white);
   padding: 5px;
   margin-bottom: 5px;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .featured-exhibition p,
 .featured-exhibition time {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .exhibition {
@@ -121,7 +121,7 @@ h2 {
   background-color: var(--background-light-purple);
   padding: 5px;
   line-height: 1.375rem;
-  margin: 0px 0px 20px;
+  margin: 0 0 20px;
 }
 .news-info {
   margin-top: 5px;

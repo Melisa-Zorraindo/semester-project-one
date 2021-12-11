@@ -8,7 +8,7 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
@@ -40,7 +40,7 @@ h4 {
   font: 1.125rem "Catamaran", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  margin: 20px 10px 0px;
+  margin: 20px 10px 0;
   color: var(--almost-black);
 }
 
@@ -54,7 +54,7 @@ section {
 
 p {
   font: 1rem "Nunito", sans-serif;
-  margin: 0px 10px;
+  margin: 0 10px;
   color: var(--almost-black);
 }
 time {
@@ -62,7 +62,7 @@ time {
 }
 
 i {
-  margin: 0px 10px;
+  margin: 0 10px;
 }
 
 header {
@@ -151,20 +151,20 @@ nav a:hover {
   background-position: center;
   max-width: 90%;
   height: 140px;
-  margin: 20px auto 0px;
+  margin: 20px auto 0;
 }
 .exhibition h2 {
   text-decoration: none;
-  text-shadow: 0px 3px 6px #000;
+  text-shadow: 0 3px 6px #000;
   color: var(--almost-white);
-  margin: 0px 10px;
+  margin: 0 10px;
   position: absolute;
   bottom: 5%;
 }
 
 .exhibition-brief {
   max-width: 90%;
-  margin: 0px auto;
+  margin: 0 auto;
   background-color: var(--background-light-pink);
   position: relative;
 }
@@ -182,7 +182,7 @@ nav a:hover {
 
 .exhibition-brief-specs p,
 .exhibition-brief-specs date {
-  margin-left: 0px;
+  margin-left: 0;
   padding: 3px;
 }
 
@@ -197,7 +197,7 @@ nav a:hover {
   text-decoration: none;
   background-color: var(--primary-yellow);
   padding: 2px 20px;
-  box-shadow: 0px 3px 6px #000;
+  box-shadow: 0 3px 6px #000;
 }
 
 .cta-large {
@@ -218,10 +218,11 @@ footer {
 footer p {
   color: var(--almost-white);
   text-transform: uppercase;
-  margin-top: 10px;
+  margin: 10px 20px 5px;
+  /*margin-top: 10px;
   margin-bottom: 5px;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 20px;*/
 }
 
 footer i {
@@ -313,7 +314,7 @@ footer i {
 }
 #toggle-popup:checked + .modal-popup {
   display: block;
-  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
 }
 
 @keyframes rocket {
@@ -338,7 +339,7 @@ footer i {
   margin-bottom: 30px;
 }
 .socials-icons:first-child {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .socials-icons i:hover {
