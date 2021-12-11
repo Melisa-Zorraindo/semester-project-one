@@ -147,6 +147,8 @@
   .visit-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 90%;
+    margin: auto;
   }
 
   footer {
@@ -167,10 +169,19 @@
 }
 
 @media only screen and (min-width: 800px) and (max-width: 999px) {
-  .exhibition,
+  /*.exhibition,
   .exhibition-brief,
   .exhibition-info {
     min-width: 350px;
+  }*/
+
+  .wrapper {
+    max-width: 90%;
+  }
+
+  .explore-grid h2 {
+    margin-bottom: 0px;
+    margin-top: 50px;
   }
 }
 
