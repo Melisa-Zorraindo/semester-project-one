@@ -98,7 +98,7 @@ nav ul {
 }
 
 nav li {
-  text-align: center;
+  text-align: left;
 }
 nav a {
   text-decoration: none;
@@ -190,6 +190,11 @@ nav a:hover {
   background-color: var(--primary-yellow);
   padding: 2px 20px;
   box-shadow: 0 3px 6px #000;
+  cursor: pointer;
+}
+
+.cta:hover {
+  box-shadow: none;
 }
 
 .cta-large {
