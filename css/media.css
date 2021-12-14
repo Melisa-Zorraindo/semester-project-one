@@ -344,11 +344,14 @@
   /* ---------- Explore & Get involved ---------- */
 
   .explore-involved-container {
-    max-width: 980px;
+    max-width: 1000px;
+    margin: auto;
+    gap: 30px;
   }
   .main-paragraph-container {
     max-width: 1000px;
-    margin: auto;
+    /*margin: auto;*/
+    margin-bottom: 30px;
   }
   .paragraph-container {
     max-width: 490px;
