@@ -62,6 +62,18 @@
     margin-left: 20px;
   }
 
+  footer {
+    margin-top: 25px;
+    display: grid;
+    grid-template-areas:
+      "form socials"
+      "copyright copyright";
+  }
+
+  .socials {
+    justify-self: end;
+  }
+
   /* ---------- Landing page & Exhibitions ---------- */
 
   .wrapper {
@@ -154,24 +166,9 @@
   .visit-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 600px;
+    max-width: 650px;
     margin: auto;
-  }
-
-  footer {
-    margin-top: 25px;
-    display: grid;
-    grid-template-areas:
-      "form socials"
-      "copyright copyright";
-  }
-
-  .socials {
-    justify-self: end;
-  }
-
-  .socials p {
-    font-weight: 400;
+    gap: 20px;
   }
 }
 
@@ -267,10 +264,12 @@
   .cta-large {
     font-size: 2rem;
   }
+}
 
+@media only screen and (min-width: 1100px) {
   .wrapper {
-    row-gap: 15px;
-    max-width: 1000px;
+    gap: 20px;
+    max-width: 1100px;
     margin: auto;
   }
 
@@ -281,7 +280,8 @@
   .exhibition-brief,
   .exhibition-info,
   .explore {
-    max-width: 300px;
+    /*max-width: 300px;*/
+    max-width: 90%;
   }
 
   .news {
@@ -325,6 +325,15 @@
     margin-top: 20px;
   }
 
+  .newsletter {
+    width: 60%;
+    margin-left: 50px;
+  }
+
+  .socials {
+    margin-right: 50px;
+  }
+
   /* ---------- Exhibitions ---------- */
 
   .wrapper-exhibitions {
@@ -338,7 +347,7 @@
     max-width: 980px;
   }
   .main-paragraph-container {
-    max-width: 980px;
+    max-width: 1000px;
     margin: auto;
   }
   .paragraph-container {
