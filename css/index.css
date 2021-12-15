@@ -102,12 +102,11 @@ h2 {
   object-fit: cover;
 }
 
-aside {
-  max-width: 100%;
+.news-item {
+  max-width: 90%;
   margin: auto;
 }
-
-aside h3 {
+.news-grid h3 {
   background-color: var(--background-light-purple);
   padding: 5px;
   margin: 10px 0 0;
