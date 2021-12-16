@@ -220,6 +220,19 @@
 }
 
 @media only screen and (min-width: 1000px) {
+  .featured-exhibition {
+    height: 300px;
+  }
+  .featured-exhibition h1 {
+    margin-bottom: 150px;
+  }
+
+  .cta-large {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
   .logo {
     min-width: 300px;
   }
@@ -274,19 +287,6 @@
     display: inline-block;
   }
 
-  .featured-exhibition {
-    height: 300px;
-  }
-  .featured-exhibition h1 {
-    margin-bottom: 150px;
-  }
-
-  .cta-large {
-    font-size: 2rem;
-  }
-}
-
-@media only screen and (min-width: 1100px) {
   .featured-exhibition-info {
     max-width: 1000px;
     margin: auto;
