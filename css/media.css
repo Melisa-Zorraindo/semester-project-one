@@ -315,7 +315,6 @@
   .exhibition-brief,
   .exhibition-info,
   .explore {
-    /*max-width: 300px;*/
     max-width: 90%;
   }
 
@@ -358,7 +357,6 @@
   }
   .main-paragraph-container {
     max-width: 1000px;
-    /*margin: auto;*/
     margin-bottom: 30px;
   }
   .paragraph-container {

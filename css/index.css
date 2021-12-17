@@ -46,10 +46,6 @@ h2 {
   max-width: 85%;
 }
 
-/*.exhibition-brief {
-  max-width: 85%;
-}*/
-
 .wrapper {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -120,54 +116,6 @@ h2 {
   margin-left: 0;
 }
 
-.carousel-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  scroll-snap-align: start;
-}
 
-.carousel-links a {
-  color: var(--almost-black);
-  font: 1.125rem "Nunito", sans-serif;
-  padding: 5px 15px;
-  background-color: var(--almost-black);
-  color: var(--background-light-purple);
-  border-radius: 99px;
-  margin: 10px;
-  text-decoration: none;
-}
 
-.news {
-  width: 85%;
-  /*height: 320px;*/
-  margin: auto;
-  align-content: center;
-  display: flex;
-  overflow-x: hidden;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  scroll-snap-align: start;
-  scrollbar-width: none;
-}
 
-.slider {
-  width: 85%;
-  height: 100%;
-  flex-shrink: 0;
-  margin-left: 10px;
-}
-
-/*.news-one,
-.news-two,
-.news-three {
-  margin: auto;
-}*/
-
-/*.news-brief {
-  min-width: 100%;
-  background-color: var(--background-light-purple);
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}*/
