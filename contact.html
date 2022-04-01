@@ -104,7 +104,7 @@
           required
         />
         <label class="contact-heading" for="subject-option"
-          >Please select the subject<span>*</span></label
+          >Subject<span>*</span></label
         >
         <select
           name="subject"
@@ -112,6 +112,7 @@
           class="contact-field"
           required
         >
+          <option value="">Please select an option</option>
           <option value="young-stars-club">Join the Young Stars club</option>
           <option value="holiday-club">Join the holiday club</option>
           <option value="group-booking">Book a group visit</option>
@@ -129,8 +130,9 @@
             >Message<span>*</span></label
           >
           <textarea id="message" required></textarea>
-          <div class="cta-form">
-            <label for="pop-up-cta" class="cta">send</label>
+          <button class="cta">send</button>
+          <!--  <div class="cta-form">
+            
             <input type="checkbox" id="pop-up-cta" />
             <div class="popup-box">
               <img alt="yellow rocket" src="/images/rocket.svg" />
@@ -142,7 +144,7 @@
                 <p>We will get back to you as soon as possible</p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </form>
     </main>

@@ -146,9 +146,10 @@ textarea {
   border: 1px solid var(--primary-yellow);
 }
 
-.cta-form {
+button {
+  border: none;
+  margin-top: 1.5rem;
   align-self: flex-end;
-  margin-top: 20px;
 }
 
 /* ---------- Feedback message ---------- */
