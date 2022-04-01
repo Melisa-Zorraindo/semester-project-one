@@ -100,12 +100,8 @@ p {
 
 /* ---------- Contact ---------- */
 
-.contact-intro {
-  margin: 20px;
-}
-
-.contact-intro p {
-  margin: 0 auto;
+.contact-form p {
+  margin: 1.5rem auto;
 }
 .contact-form {
   width: 90%;
@@ -132,6 +128,10 @@ p {
   width: 100%;
 }
 
+.contact-heading span {
+  color: red;
+}
+
 .contact-field {
   height: 40px;
   border: 1px solid var(--primary-yellow);
@@ -139,20 +139,6 @@ p {
   color: var(--almost-black);
   margin-bottom: 20px;
   font-weight: 400;
-}
-
-.email {
-  margin-bottom: 0;
-}
-
-.contact-message {
-  font: 1rem "Nunito", sans-serif;
-  color: var(--almost-black);
-  margin-bottom: 20px;
-}
-
-small i {
-  margin: 0;
 }
 
 textarea {
