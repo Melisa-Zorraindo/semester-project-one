@@ -108,10 +108,15 @@ p {
   margin: 0 auto;
 }
 .contact-form {
-  width: 70%;
+  width: 90%;
   margin: auto;
   position: relative;
 }
+
+.heading-contact-form {
+  text-align: center;
+}
+
 .form-field {
   display: flex;
   flex-direction: column;

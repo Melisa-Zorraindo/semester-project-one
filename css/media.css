@@ -47,12 +47,6 @@
     max-width: 65%;
     margin: auto;
   }
-
-  /* ---------- Contact ---------- */
-
-  .heading-contact-form {
-    text-align: center;
-  }
 }
 
 @media only screen and (min-width: 694px) {
@@ -146,7 +140,7 @@
   /* ---------- Contact ---------- */
 
   .contact-form {
-    width: 50%;
+    width: 500px;
   }
 
   /* ---------- The museum ---------- */
@@ -375,15 +369,5 @@
 
   .visit-wrapper {
     max-width: 980px;
-  }
-
-  /* ---------- Contact ---------- */
-
-  .contact-form {
-    width: 500px;
-  }
-
-  .heading-contact-form {
-    text-align: center;
   }
 }
