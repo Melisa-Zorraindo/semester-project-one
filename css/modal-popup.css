@@ -1,0 +1,53 @@
+/* ---------- Feedback message ---------- */
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(0.15rem);
+  z-index: 10;
+}
+
+.popup-box {
+  max-width: 250px;
+  text-align: right;
+  position: absolute;
+  left: -25%;
+  bottom: 25%;
+  animation: rocket 0.2s ease-out forwards;
+  z-index: 15;
+}
+
+.message {
+  border: 3px solid var(--almost-black);
+  background-color: white;
+}
+
+.close-popup {
+  font-size: 2rem;
+  color: var(--almost-black);
+  background-color: transparent;
+  margin-top: 0;
+}
+
+.close-popup:hover {
+  color: var(--primary-yellow);
+  background-color: var(--almost-black);
+}
+.popup-box h2 {
+  font-size: 1.125rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.popup-box p {
+  margin: 1.5rem 0.75rem;
+  text-align: left;
+}

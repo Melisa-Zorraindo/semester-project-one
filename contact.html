@@ -14,6 +14,7 @@
     />
     <link href="css/style.css" rel="stylesheet" />
     <link href="/css/explore_contact_get-involved.css" rel="stylesheet" />
+    <link href="/css/modal-popup.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/9aef28119c.js"
@@ -131,22 +132,17 @@
           >
           <textarea id="message" required></textarea>
           <button class="cta">send</button>
-          <!--  <div class="cta-form">
-            
-            <input type="checkbox" id="pop-up-cta" />
-            <div class="popup-box">
-              <img alt="yellow rocket" src="/images/rocket.svg" />
-              <div class="message">
-                <label class="close-popup" for="pop-up-cta"
-                  ><i class="fas fa-times"></i
-                ></label>
-                <h2>Thank you for your message</h2>
-                <p>We will get back to you as soon as possible</p>
-              </div>
+          <div class="popup-box hidden">
+            <img alt="yellow rocket" src="/images/rocket.svg" />
+            <div class="message">
+              <button class="close-popup"><i class="fas fa-times"></i></button>
+              <h2>Thank you for your message</h2>
+              <p>We will get back to you as soon as possible</p>
             </div>
-          </div> -->
+          </div>
         </div>
       </form>
+      <div class="overlay hidden"></div>
     </main>
     <footer>
       <form class="newsletter">
@@ -204,5 +200,7 @@
       </div>
       <p class="copyright">&#169; Copyright 2021</p>
     </footer>
+    <script src="/js/modules/modalPopup.mjs" type="module"></script>
+    <script src="/js/contact.js" type="module"></script>
   </body>
 </html>
