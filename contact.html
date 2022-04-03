@@ -30,19 +30,19 @@
             class="logo"
             src="images/logo-desktop.png"
         /></a>
-        <a aria-label="Open hamburger menu" class="hamburger" href="#navbar">
+        <button aria-label="Open hamburger menu" class="hamburger">
           <span class="sr-only">Open hamburger menu</span>
-          <i aria-hidden="true" class="fas fa-bars"></i
-        ></a>
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
       </div>
       <nav id="navbar">
         <ul>
           <li class="dropdown">
-            <a class="hidden-small-screens" href="#"
-              ><i aria-hidden="true" class="fas fa-tasks"></i>Plan your visit<i
+            <a class="hidden-small-screens">
+              <i aria-hidden="true" class="fas fa-tasks"></i>Plan your visit<i
                 class="fas fa-sort-down"
-              ></i
-            ></a>
+              ></i>
+            </a>
             <ul class="dropdown-menu">
               <li>
                 <a href="exhibitions.html"
@@ -73,10 +73,10 @@
             >
           </li>
         </ul>
-        <a aria-label="Close hamburger menu" class="close" href="#">
+        <button aria-label="Close hamburger menu" class="close">
           <span class="sr-only">Close hamburger menu</span>
-          <i aria-hidden="true" class="fas fa-times"></i
-        ></a>
+          <i aria-hidden="true" class="fas fa-times"></i>
+        </button>
       </nav>
     </header>
     <main>
@@ -198,6 +198,7 @@
       </div>
       <p class="copyright">&#169; Copyright 2021</p>
     </footer>
+    <script src="/js/burgerMenu.js"></script>
     <script src="/js/modules/modalPopup.mjs" type="module"></script>
     <script src="/js/contact.js" type="module"></script>
     <script src="/js/newsletter.js" type="module"></script>

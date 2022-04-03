@@ -61,10 +61,17 @@ header {
 .logo {
   max-width: 250px;
 }
+
 .hamburger,
 .close {
   font-size: 2rem;
   color: var(--almost-white);
+  border: none;
+  background-color: transparent;
+}
+
+.close {
+  align-self: flex-start;
 }
 
 nav {
@@ -77,14 +84,11 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  overflow: hidden; /*may have to remove it later*/
+  /* overflow: hidden;  */
   transform: translateY(-100%);
   transition: transform 0.5s ease;
 }
 
-nav:target {
-  transform: translateY(0);
-}
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -123,6 +127,7 @@ nav a:hover {
 
 .hidden-small-screens {
   display: none;
+  cursor: pointer;
 }
 
 .fa-hands-helping {
