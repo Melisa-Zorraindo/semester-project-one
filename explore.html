@@ -263,18 +263,16 @@
           />
         </div>
         <div class="cta-newsletter">
-          <label for="toggle-popup" class="cta">sign up</label>
-          <input type="checkbox" id="toggle-popup" />
-          <div class="modal-popup">
-            <img alt="yellow rocket" src="/images/rocket.svg" />
-            <div class="feedback">
-              <label class="close-feedback" for="toggle-popup"
-                ><i class="fas fa-times"></i
-              ></label>
-              <p>You won't miss out a thing!</p>
-            </div>
+          <button class="cta">sign up</button>
+        </div>
+        <div class="modal-popup hidden">
+          <img alt="yellow rocket" src="/images/rocket.svg" />
+          <div class="feedback">
+            <button class="close-feedback"><i class="fas fa-times"></i></button>
+            <p>You won't miss out a thing!</p>
           </div>
         </div>
+        <div class="overlay-subscription hidden"></div>
       </form>
       <div class="socials">
         <p>follow us on social media</p>
@@ -305,5 +303,6 @@
       </div>
       <p class="copyright">&#169; Copyright 2021</p>
     </footer>
+    <script src="/js/newsletter.js" type="module"></script>
   </body>
 </html>
