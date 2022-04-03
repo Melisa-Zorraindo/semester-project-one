@@ -188,6 +188,7 @@ nav a:hover {
   padding: 2px 20px;
   box-shadow: 0 3px 6px #000;
   cursor: pointer;
+  border: none;
 }
 
 .cta:hover {
@@ -262,15 +263,18 @@ footer i {
   margin-bottom: 30px;
 }
 
+.hidden {
+  display: none;
+}
+
 .modal-popup {
   max-width: 250px;
   text-align: center;
   position: absolute;
   left: -25%;
   bottom: 25%;
-  display: none;
-  background-color: rgba(0, 0, 0, 0.5);
   animation: rocket 0.2s ease-out forwards;
+  z-index: 15;
 }
 
 .feedback {
@@ -278,17 +282,23 @@ footer i {
   background-color: white;
 }
 
-.close-feedback i {
-  margin-top: 10px;
-  margin-right: 10px;
-  color: var(--almost-black);
+.close-feedback {
   font-size: 2rem;
+  background-color: transparent;
+  margin-top: 0;
+  border: none;
+}
+
+.close-feedback i {
+  padding: 0.25rem;
+  color: var(--almost-black);
   position: absolute;
   right: 0%;
 }
 
 .close-feedback i:hover {
   color: var(--primary-yellow);
+  background-color: var(--almost-black);
 }
 
 .modal-popup p {
@@ -299,12 +309,15 @@ footer i {
   text-transform: initial;
 }
 
-#toggle-popup {
-  display: none;
-}
-#toggle-popup:checked + .modal-popup {
-  display: block;
-  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+.overlay-subscription {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(0.15rem);
+  z-index: 10;
 }
 
 @keyframes rocket {
