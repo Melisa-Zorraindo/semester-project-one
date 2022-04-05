@@ -3,6 +3,7 @@ h1 {
   text-shadow: 0 3px 6px #000;
   margin: 0 10px 100px;
   padding-top: 10px;
+  text-align: left;
 }
 
 h1 a,
@@ -115,7 +116,3 @@ h2 {
 .news-brief i {
   margin-left: 0;
 }
-
-
-
-

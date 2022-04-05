@@ -3,6 +3,10 @@ iframe {
   height: auto;
 }
 
+h2 {
+  grid-column: -1/1;
+}
+
 h3 {
   background-color: var(--almost-white);
   margin: 30px 0 10px;

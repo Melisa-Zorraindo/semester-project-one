@@ -17,17 +17,16 @@ body {
 h1 {
   font: 2rem "Catamaran", sans-serif;
   font-weight: 700;
-  margin-left: 10px;
-  margin-bottom: 0;
+  margin-left: 1rem;
+  text-align: center;
   line-height: 2rem;
   color: var(--almost-black);
 }
 h2 {
   font: 1.5rem "Catamaran", sans-serif;
   font-weight: 600;
-  text-decoration: underline;
-  margin-left: 10px;
-  margin-bottom: 15px;
+  /* text-decoration: underline; */
+  margin-left: 1rem;
   line-height: 1.5rem;
   color: var(--almost-black);
 }

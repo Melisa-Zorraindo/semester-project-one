@@ -146,7 +146,7 @@ textarea {
   border: 1px solid var(--primary-yellow);
 }
 
-button {
+.cta-form {
   border: none;
   margin-top: 1.5rem;
   align-self: flex-end;
