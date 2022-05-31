@@ -1,6 +1,7 @@
 # Semester project one
 
 ![csm-banner](https://user-images.githubusercontent.com/76968122/171166426-1c3e4e72-2d15-4d4e-8b01-1818c81b5211.png)
+Interactive science museum
 
 
 ## Description
