@@ -3,10 +3,11 @@
 ![csm-banner](https://user-images.githubusercontent.com/76968122/171166426-1c3e4e72-2d15-4d4e-8b01-1818c81b5211.png)
 Interactive science museum
 
-
 ## Description
 
 I designed and developed a website for an interactive science museum whose target audience is primary and middle school children aged seven to fifteen and families with young children. The site is informative and engaging, assumes the audience is inquisitive and intelligent, and encourages viewers to visit the venue. Following accessibility principles, the site is easy to use on a variety of devices.
+
+## [Link to live project](https://csm-noroff-project.netlify.app)
 
 ## Site architecture
 
@@ -24,6 +25,12 @@ I designed and developed a website for an interactive science museum whose targe
 ![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+## Designed with
+
+![adobe xd](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
+
+![photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black)
 
 ## Contact
 
